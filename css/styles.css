@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	color: #333;
+	/*outline: 1px solid lavender;*/
+}
+
+.container-principal{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.temario-fila{
+	height: 25px;
+	overflow: hidden;
+	cursor: pointer;
+	transition: all, .3s;
+}
+
+.temario-fila:hover .temario-titulo{
+	color: royalblue;
+	transition: all, .3s;
+}
+
+.temario-titulo{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+.temario-contenido{
+
+}

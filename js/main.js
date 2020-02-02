@@ -1,0 +1,21 @@
+
+let filas = document.getElementsByClassName('temario-fila')
+
+
+for(let fila of filas)
+{
+	fila.addEventListener('click', function()
+	{
+		if(this.offsetHeight == 25)
+		{
+			fila.style.height = this.children[1].offsetHeight + 25 + 'px'
+			fila.style.marginBottom = '20px'
+		}
+		else
+		{
+			fila.style.height = '25px'
+			fila.style.marginBottom = '0'
+		}
+	})
+}
+
