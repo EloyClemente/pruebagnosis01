@@ -15,6 +15,7 @@ for(let fila of filas)
 		{
 			fila.style.height = '25px'
 			fila.style.marginBottom = '0'
+			fila.style.height = this.children[0].style.color = '#333'
 		}
 	})
 }
