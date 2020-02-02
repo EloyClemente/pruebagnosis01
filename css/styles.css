@@ -24,13 +24,13 @@
 
 .temario-fila:hover .temario-titulo{
 	color: royalblue;
-	transition: all, .3s;
 }
 
 .temario-titulo{
 	font-size: 16px;
 	font-weight: bold;
 	line-height: 25px;
+	transition: all, .3s;
 }
 
 .temario-contenido{
